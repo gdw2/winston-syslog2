@@ -13,8 +13,7 @@
     "lodash": "2.4.x"
   },
   "devDependencies": {
-    "winston": "0.5.x",
-    "vows": "0.6.x"
+    "winston": "0.7.x"
   },
-  "main": "./lib/winston-syslog",
+  "main": "./lib/winston-syslog"
 }
