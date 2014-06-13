@@ -1,0 +1,20 @@
+{
+  "name": "winston-syslog2",
+  "description": "A syslog transport for winston",
+  "version": "0.0.1",
+  "author": "Greg Warner <no@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/gdw2/winston-syslog2.git"
+  },
+  "keywords": ["logging", "sysadmin", "tools", "winston", "syslog"],
+  "dependencies": {
+    "node-syslog": "1.1.x",
+    "lodash": "2.4.x"
+  },
+  "devDependencies": {
+    "winston": "0.5.x",
+    "vows": "0.6.x"
+  },
+  "main": "./lib/winston-syslog",
+}
