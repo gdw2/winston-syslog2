@@ -22,8 +22,10 @@ To use the Syslog transport in [winston][0], you simply need to require it and t
   //
   require('winston-syslog');
   
-  winston.add(winston.transports.Syslog);
+  winston.add(winston.transports.Syslog, {level: ‘emerg’});
 ```
+
+
 
 
 ## Log Levels
@@ -45,7 +47,10 @@ The `Syslog` transport will only log to the level that are available in the sysl
 * alert
 * emerg
 
+There is currently a [bug][4] in winston where the syslog levels are mapped backwards.  Because of this, you will probably want to set the log level to ‘emerg’ as seen in the example above.
+
 [0]: https://github.com/indexzero/winston
 [1]: http://www.ietf.org/rfc/rfc3164.txt
 [2]: http://tools.ietf.org/html/rfc5424
 [3]: https://github.com/squeeks/glossy
+[4]: https://github.com/winstonjs/winston/pull/406

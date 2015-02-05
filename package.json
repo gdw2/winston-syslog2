@@ -1,7 +1,7 @@
 {
   "name": "winston-syslog2",
   "description": "A syslog transport for winston",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Greg Warner <no@gmail.com>",
   "repository": {
     "type": "git",
@@ -9,7 +9,7 @@
   },
   "keywords": ["logging", "sysadmin", "tools", "winston", "syslog"],
   "dependencies": {
-    "node-syslog": "1.1.x",
+    "strong-fork-syslog": "1.1.x",
     "lodash": "2.4.x"
   },
   "devDependencies": {
