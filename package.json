@@ -1,7 +1,7 @@
 {
   "name": "winston-syslog2",
   "description": "A syslog transport for winston",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Greg Warner <no@gmail.com>",
   "repository": {
     "type": "git",
